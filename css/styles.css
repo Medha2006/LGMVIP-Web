@@ -1,0 +1,272 @@
+body {
+  font-family: 'Montserrat-black';
+}
+
+#title {
+  background-color: #D22779;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat-black'sans-serif;
+  margin-top: 2rem;
+  font-size: 3.5rem;
+  line height: 1.5
+}
+
+h2 {
+  font-family: 'Monospace-bold';
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+h3 {
+  font-family: 'Monospace-bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: 'Montserrat-light';
+}
+
+/*download-button*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+.Title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 40%
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  border-radius: 100%;
+}
+
+.icon {
+  color: #D22779;
+  background-color: #ffff;
+  padding: 5%;
+}
+
+.btn{
+margin-right: 25px;
+}
+.wc{
+  color:#D22779;
+  font-family: cursive;
+}
+.wc1{
+  font-family: cursive;
+}
+
+.icon:hover {
+  color: #D22779
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 4% 7%;
+  text-align: center;
+  background-color: #D22779;
+  color: #ffff;
+}
+
+.testimonial-image {
+  width: 27%;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+#press {
+  background-color: #D22779;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-imag {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  margin: 100px;
+  background-color: white;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: 2px solid;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-header{
+    background-color: #F2789F;
+  }
+
+
+@media (max-width:1028px) {
+  .Title-img {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #D22779;
+  color: #fff;
+  text-align: center;
+  padding: 8% 15%;
+}
+
+.cta {
+  font-size: 70px;
+  padding-bottom: 5%;
+}
+
+#footer {
+  background-color: #D22779;
+  color: white;
+  text-align: center;
+  padding: 10% 15% 2%;
+}
+
+.footer {
+  margin: 0px;
+  color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+.social-icon:hover {
+  color: black;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.breed {
+  background-color: #FAEEE7;
+  text-align: center;
+}
+
+.projects {
+  background-color: #FAEEE7;
+  text-align: center;
+}
+
+.size {
+  width: 340px;
+  height: 370px;
+  padding: 5%;
+  margin: 20px 10px 10px;
+  border: 2px solid;
+}
+
+#projects {
+  text-align: center;
+  padding: 8%;
+  color: black;
+}
+
+.team {}
+
+#team {
+  text-align: center;
+  padding: 7%;
+  background-color: #D22779;
+  color: white;
+}
+
+.column {
+  padding: 2% 0%;
+  margin: 0;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 24px 0px rgba(0.1, 0, 0, 0);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.mapouter {
+  padding-right: 1%;
+  height: 400px;
+  width: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 500px;
+}
+
+#contact {
+  padding: 5% 0% 2% 3%;
+  margin: 7px 2px 7px 2px;
+  background-color: white;
+  margin: 0;
+}
+
+.size1 {
+  border-radius: 100%;
+  padding: 7% 14%;
+  width: 300px;
+  height: 300px;
+  float: left;
+
+}
+
+.team-table {
+  padding: 2%;
+  position: relative;
+}
+
+.partition1 {
+  color: white;
+}
